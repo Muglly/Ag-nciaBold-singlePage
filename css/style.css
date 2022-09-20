@@ -69,7 +69,7 @@
     font-weight: normal;
 }
 
-.mackup img{
+.mockup img{
     max-width: 100%;
 }
 
@@ -136,6 +136,40 @@
     margin-bottom: -20px;
 }
 
+/* *********** */
+
+.cta{
+   background-image: url("../images/BANNER\ IMG.svg");
+   background-size: cover;
+   background-position: center;
+   padding: 20px 10px;
+   min-height: 200px; 
+   text-align: center;
+   color: white;
+}
+
+.cta h2, .cta h4{
+    font-weight: normal;
+    margin-bottom: 1.2%;
+}
+
+.cta h2{
+    font-size: 40px;
+    margin-top: 2%;
+}
+
+.cta a{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #FFDD33;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0F3FD3;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 @media screen and (max-width: 768px){
 
     .marcas > .center{
@@ -156,5 +190,9 @@
     .boxDiferenciais{
         width: 100%;
         margin-right: 0;
+    }
+
+    .cta h2, .cta h4{
+        margin-bottom: 2.3%;
     }
 }
