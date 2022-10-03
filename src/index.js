@@ -7,6 +7,7 @@ import PqNos from './PqNos';
 import Cta from "./Cta"
 import Beneficios from './Beneficios';
 import Depoimentos from './Depoimentos';
+import Contato from "./Contato";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,7 @@ root.render(
     <Cta/>
     <Beneficios/>
     <Depoimentos/>
+    <Contato/>
   </React.StrictMode>
 );
 

@@ -30,7 +30,7 @@ function Depoimentos () {
               }
             },
             {
-              breakpoint: 600,
+              breakpoint: 740,
               settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
