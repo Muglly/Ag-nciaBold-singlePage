@@ -69,6 +69,21 @@ code {
   border: 0;
 }
 
+.menuMobile{
+  display: none;
+  text-align: right;
+  width: 50%;
+}
+
+.menuMobile svg{
+  text-align: right;
+  position: relative;
+  top: 13px;
+  color: white;
+  font-size: 23px;
+  cursor: pointer;
+}
+
 .mockup{
   display: block;
   width: 100%;
@@ -369,34 +384,110 @@ li.slick-active > button{
   border: 0;
 }
 
+/* ************* */
+
+.footer{
+  background-color: #255AFF;
+  color: white;
+  padding: 10px 0;
+}
+
+.direitos{
+  width: 50%;
+  padding: 10px 0;
+}
+
+
 
 @media screen and (max-width: 768px){
 
+  .menu > .intensMenu {
+    display: none;
+  }
+
+  .menuMobile{
+    display: block;
+  }
+
+  .bnt{
+    display: none;
+  }
+
+  .intensMenuMobile{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 65px;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #0F3FD3;
+    text-align: center;
+  }
+
+  
+
+  .intensMenuMobile a{
+    text-align: center;
+    display: block;
+    margin: 5px 0;
+    padding:  8px 0;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .intensMenuMobile a:hover{
+    border-bottom: 2px solid #FFDD33;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .marcas > .center{
-      flex-wrap: nowrap;
-      flex-direction: column;
-      align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
   }
 
   .marcas img{
-      max-width: 300px;
-      width: 100%;
+    max-width: 300px;
+    width: 100%;
   }
 
   .diferenciais{
-      flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .boxDiferenciais{
-      width: 100%;
-      margin-right: 0;
+    width: 100%;
+    margin-right: 0;
   }
 
   .cta h2, .cta h4{
-      margin-bottom: 2.3%;
+    margin-bottom: 2.3%;
   }
 
   .listaBeneficios, .imgBeneficios{
-      width: 100%;
+    width: 100%;
+  }
+
+  .direitos{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .footer > .center > .intensMenu{
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer > .center > .intensMenu a{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
   }
 }

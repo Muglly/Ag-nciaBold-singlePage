@@ -8,6 +8,7 @@ import Cta from "./Cta"
 import Beneficios from './Beneficios';
 import Depoimentos from './Depoimentos';
 import Contato from "./Contato";
+import Footer from './Footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +21,7 @@ root.render(
     <Beneficios/>
     <Depoimentos/>
     <Contato/>
+    <Footer/>
   </React.StrictMode>
 );
 
