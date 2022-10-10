@@ -49,7 +49,7 @@ function Depoimentos () {
 
     return(
 
-        <div class="depoimentos">
+        <div class="depoimentos" id="dep">
             <h1>Depoimentos</h1>
             <div class="center">
                 <Slider {...slick} class="slider">

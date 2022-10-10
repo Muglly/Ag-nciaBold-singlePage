@@ -3,7 +3,7 @@
 function Contato () {
 
     return(
-        <div class="contato">
+        <div class="contato" id="cont">
             <h1>Entre em contato</h1>
             <div class="center">
                 <form method="post">

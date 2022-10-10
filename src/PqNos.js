@@ -5,7 +5,7 @@ import ICONE3 from "./images/ICONE3.png"
 function PqNos(){
 
     return(
-        <div class="pqNos">
+        <div class="pqNos" id="pq">
         <div class="center">
             <h2>Por que nós?</h2>
             <p>Uma experiência incrível para seus clientes, resultados espetaculares para sua empresa.</p>

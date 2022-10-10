@@ -25,27 +25,27 @@ function Header(){
 
 
     return(
-        <div class="main">
+        <div class="main" id="inicio">
             <div class="center">
                 <div class="menu">
                     <div class="logo">
                         <a href="/"><img src={logoagencia}/></a>
                     </div>
                     <div class="intensMenu">
-                        <a href="#">Inicio</a>
-                        <a href="#">Por que nós?</a>
-                        <a href="#">Depoimentos</a>
-                        <a class="contactBtn" href="">Entre em Contato</a>
+                        <a href="#inicio">Inicio</a>
+                        <a href="#pq">Por que nós?</a>
+                        <a href="#dep">Depoimentos</a>
+                        <a class="contactBtn" href="#cont">Entre em Contato</a>
                     </div>
                     <div  className="menuMobile">
-                        <FaAlignJustify onClick={(e)=>abrirMenu(e)} className="fa"/>
-                        <FaRegWindowClose onClick={()=>fecharMenu()} className="bnt"/>
+                        <div className="fa"><FaAlignJustify onClick={(e)=>abrirMenu(e)} /></div>
+                        <div className="bnt"><FaRegWindowClose onClick={()=>fecharMenu()} /></div>
                         <div className="intensMenuMobile">
                             <div className="container">
-                                <a href="#">Inicio</a>
-                                <a href="#">Por que nós?</a>
-                                <a href="#">Depoimentos</a>
-                                <a class="contactBtn" href="">Entre em Contato</a>
+                                <a href="#inicio">Inicio</a>
+                                <a href="#pq">Por que nós?</a>
+                                <a href="#dep">Depoimentos</a>
+                                <a class="contactBtn" href="#cont">Entre em Contato</a>
                             </div>    
                         </div>
                     </div>

@@ -37,15 +37,16 @@ code {
 .menu{
   display: flex;
   width: 100%;
+  justify-content: space-between;
 }
 
-.logo{
+/* .logo{
   width: 50%;
-}
+} */
 
-.intensMenu{
+/* .intensMenu{
   width: 50%; 
-}
+} */
 
 .intensMenu a{
   font-weight: bold;
@@ -75,7 +76,7 @@ code {
   width: 50%;
 }
 
-.menuMobile svg{
+div.menuMobile svg{
   text-align: right;
   position: relative;
   top: 13px;
@@ -382,6 +383,12 @@ li.slick-active > button{
   color: white;
   font-size: 18px;
   border: 0;
+  cursor: pointer;
+  transition: ease-in-out 0,3s;
+}
+
+.contato input[type=submit]:hover {
+  background-color: #0f3fd3;
 }
 
 /* ************* */
