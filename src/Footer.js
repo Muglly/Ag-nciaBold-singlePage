@@ -1,5 +1,4 @@
 
-
 function Footer (){
 
     return(
@@ -9,10 +8,10 @@ function Footer (){
                     <p>Todos os diretos resevados a Muglly</p>
                 </div>
                 <nav class="intensMenu">
-                    <a href="#">Inicio</a>
-                    <a href="#">Por que nós?</a>
-                    <a href="#">Depoimentos</a>
-                    <a class="contactBtn" href="">Entre em Contato</a>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#pq">Por que nós?</a>
+                    <a href="#dep">Depoimentos</a>
+                    <a class="contactBtn" href="#cont">Entre em Contato</a>
                 </nav>
             </div> 
         </div>   

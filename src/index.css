@@ -40,14 +40,6 @@ code {
   justify-content: space-between;
 }
 
-/* .logo{
-  width: 50%;
-} */
-
-/* .intensMenu{
-  width: 50%; 
-} */
-
 .intensMenu a{
   font-weight: bold;
   color: white;
@@ -67,6 +59,7 @@ code {
 }
 
 .intensMenu a.contactBtn:hover{
+  background-color: #002287;
   border: 0;
 }
 
